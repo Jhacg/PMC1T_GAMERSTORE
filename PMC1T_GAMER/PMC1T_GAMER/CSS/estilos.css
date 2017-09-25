@@ -1,0 +1,38 @@
+﻿body  {
+    font-family:Arial;
+    border:1px solid red;
+}
+#contenedor{
+    margin:auto;
+}
+
+header {
+    text-align: center;
+}
+nav a {
+    padding: 15px;
+    text-decoration: none;
+}
+#izquierda_footer{
+    float:left;
+    width:33%;
+
+}
+#derecha_footer {
+    float: right;
+    width: 33%;
+}
+#centro_footer {
+    margin-left:33%;
+    margin-right:33%;
+}
+<!--Pag_ Anidada-->
+
+#ubic_ublicidad {
+    width: 80%;
+    float: left;
+}
+
+#ubic_producto {
+    margin-left: 80%;
+}

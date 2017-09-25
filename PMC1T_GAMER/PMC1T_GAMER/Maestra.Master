@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Maestra.master.cs" Inherits="PMC1T_GAMER.Maestra" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Gamer Store</title>
+    <link href="CSS/estilos.css" rel="stylesheet" />  
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="contenedor">
+            <header>
+                <img src="Imagenes/logoPrincipal.png" />
+            </header>
+            <nav>
+                <a href="Default.aspx">Inicio</a>|
+                <a href="Productos.aspx">Productos</a>|
+                <a href="Promociones.aspx">Promociones</a>|
+                <a href="Registrate.aspx">Registro</a>
+            </nav>
+        
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div  style="clear:both" class="clear"></div>
+            <footer>
+                <section>
+                    <div id="izquierda_footer">a</div>
+                    <div id="derecha_footer">b</div>
+                    <div id="centro_footer">c</div>
+
+                </section>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

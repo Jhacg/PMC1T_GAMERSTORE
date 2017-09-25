@@ -1,0 +1,12 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Maestra.Master" AutoEventWireup="true" CodeBehind="Maestra_Anidada.master.cs" Inherits="PMC1T_GAMER.Pag_Anidada.Maestra_Anidada" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <section id="ubic_publicidad">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    </section>
+    <section id="ubic_producto">
+        f
+
+
+    </section>
+    
+</asp:Content>
