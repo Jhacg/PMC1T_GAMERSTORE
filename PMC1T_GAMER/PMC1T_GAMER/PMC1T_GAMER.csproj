@@ -79,7 +79,10 @@
     <Content Include="CSS\estilos.css" />
     <Content Include="Global.asax" />
     <Content Include="Imagenes\logoPrincipal.png" />
+    <Content Include="Pag_Vista\Contactanos.aspx" />
     <Content Include="Pag_Vista\Default.aspx" />
+    <Content Include="Pag_Vista\Productos.aspx" />
+    <Content Include="Pag_Vista\Promociones.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -100,12 +103,33 @@
     <Compile Include="Pag_Anidada\Maestra_Anidada.master.designer.cs">
       <DependentUpon>Maestra_Anidada.master</DependentUpon>
     </Compile>
+    <Compile Include="Pag_Vista\Contactanos.aspx.cs">
+      <DependentUpon>Contactanos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pag_Vista\Contactanos.aspx.designer.cs">
+      <DependentUpon>Contactanos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pag_Vista\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pag_Vista\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pag_Vista\Productos.aspx.cs">
+      <DependentUpon>Productos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pag_Vista\Productos.aspx.designer.cs">
+      <DependentUpon>Productos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pag_Vista\Promociones.aspx.cs">
+      <DependentUpon>Promociones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pag_Vista\Promociones.aspx.designer.cs">
+      <DependentUpon>Promociones.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
