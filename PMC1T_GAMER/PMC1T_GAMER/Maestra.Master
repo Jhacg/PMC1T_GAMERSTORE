@@ -12,7 +12,7 @@
     <form id="form1" runat="server">
         <div id="contenedor">
             <header>
-                <div>
+                <div id="logo">
                     <img src="../Imagenes/logoPrincipal.png" />
                 </div>
                 <div id="Login">
@@ -45,19 +45,17 @@
                         <h1>CONTACTENOS</h1>
                         <nav>
                             <ul>
-                                <li><a href="#">DIRECCION</a></li>
-                                <li><a href="#">TELEFONOS</a></li>
-
-                            </ul>
+                                <li><a href="https://www.google.com.pe/maps/@-12.0460928,-76.9665993,15.04z">DIRECCION</a></li>                            </ul>
                         </nav>
+                        <p>954-875926</p>
                     </div>
                     <div id="centro_footer">
                         <h1>REDES SOCIALES</h1>
                         <nav>
                             <ul>
-                                <li><a href="www.facebook.com">FACEBOOK</a></li>
-                                <li><a href="www.toutube.com">YOUTUBE</a></li>
-                                <li><a href="www.twitter.com">TWITTERS</a></li>
+                                <li><a href="https://www.facebook.com/">FACEBOOK</a></li>
+                                <li><a href="https://www.toutube.com">YOUTUBE</a></li>
+                                <li><a href="https://www.twitter.com">TWITTERS</a></li>
 
                             </ul>
                         </nav>

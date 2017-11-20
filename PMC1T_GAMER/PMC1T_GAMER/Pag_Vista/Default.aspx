@@ -16,14 +16,12 @@
             <p>Aventura: Caperucita Roja y el Lobo, Los Teletubis, Las aventuras de Kim Young</p>
             <p>Multiplataforma: El muro de Trump</p>
         </div>
-        <div class="clear"></div>
+        
     </div>
+    <div class="clear"></div>
     <div id="seg">
-        <div id="seg_derecha">
-            <img width="300" height="300" src="http://www.speedlogic.com.co/images-css/pcgame.png"/>
-        </div>
         <div id="seg_izquierda">
-            <h2 style="text-align:center">Contamos con todos los equipos gamers</h2>
+             <h2 style="text-align:center">Contamos con todos los equipos gamers</h2>
             <p>Aquí podras encontrar cualquier equipo gamers a tu disposición</p>
             <p>Encontraras:</p>
             <p>Targetas Madre:</p>
@@ -31,7 +29,11 @@
             <p>Sillas gamers: Caperucita Roja y el Lobo, Los Teletubis, Las aventuras de Kim Young</p>
             <p>Accesorios:</p>
         </div>
-        <div class="clear"></div>
+        <div id="seg_derecha">
+           
+            <img width="300" height="300" src="http://www.speedlogic.com.co/images-css/pcgame.png"/>
+        </div>
+        
     </div>
-
+    <div class="clear"></div>
 </asp:Content>

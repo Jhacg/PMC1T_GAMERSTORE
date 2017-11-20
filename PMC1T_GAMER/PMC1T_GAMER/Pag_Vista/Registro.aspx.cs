@@ -13,5 +13,11 @@ namespace PMC1T_GAMER.Pag_Vista
         {
 
         }
+
+        protected void CreateUserWizard1_CreatedUser(object sender, EventArgs e)
+        {
+            var nombre = Page.User.Identity.Name;
+            
+        }
     }
 }
