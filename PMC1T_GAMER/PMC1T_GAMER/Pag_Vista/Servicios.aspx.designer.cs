@@ -10,6 +10,6 @@
 namespace PMC1T_GAMER.Pag_Vista {
     
     
-    public partial class Productos {
+    public partial class Servicios {
     }
 }

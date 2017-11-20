@@ -1,51 +1,92 @@
-﻿body  {
-    font-family:Arial;    
-    background-color:#000000;
+﻿body {
+    font-family: Arial;
+    background-image: url("https://images2.alphacoders.com/474/thumb-1920-474206.jpg");
 }
+
 #contenedor {
     margin-left: 30px;
     margin-right: 30px;
     border: 1px solid red;
-    background-color:#ffffff;
+    background-color: aliceblue;
+    opacity: 0.8;
 }
 
 #cabezal {
     text-align: center;
     /*background-repeat:no-repeat;*/
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/95_-_Machu_Picchu_-_Juin_2009.jpg/800px-95_-_Machu_Picchu_-_Juin_2009.jpg);
 }
-nav a {
-    padding: 15px;
-    text-decoration: none;
-}
-#izquierda_footer{
-    float:left;
-    width:33%;
 
+#menu {
+    background-color: #efefd0;
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 10px 10px;
 }
+
+#menu a {
+        padding: 35px;
+        text-decoration: none;
+    }
+
+#logo {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+header, nav {
+    margin-bottom: 10px;
+}
+
+#izquierda_footer {
+    float: left;
+    width: 33%;
+}
+
+footer {
+    color: #091169;
+    background-color: #ffd800;
+}
+
+
 #derecha_footer {
     float: right;
     width: 33%;
 }
-#centro_footer {
-    margin-left:33%;
-    margin-right:33%;
-}
-<!--Pag_ Anidada-->
 
-#ubic_publicidad {
+#centro_footer {
+    margin-left: 33%;
+    margin-right: 33%;
+}
+<!-- Pag_ Anidada-- > #ubic_publicidad {
+    border: 1px solid red;
     width: 20%;
     float: right;
-    margin-left:80%;
+    margin-left: 80%;
+    text-align: center;
 }
 
 
 /*===============Contactanos=========*/
 #contacto_left {
-    float:left;
-    border:1px solid red;
-}
-#contacto_right {
-    margin-left:70%;
+    float: left;
+    border: 1px solid red;
 }
 
+#contacto_right {
+    margin-left: 70%;
+}
+/*========Item=========*/
+#Item {
+    width: 100%;
+    padding: 10px 30px;
+    text-align: center;
+    margin: 15px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}

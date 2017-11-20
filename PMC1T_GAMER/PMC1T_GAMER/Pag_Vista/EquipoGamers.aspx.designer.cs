@@ -7,36 +7,27 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace PMC1T_GAMER.Pag_Anidada {
+namespace PMC1T_GAMER.Pag_Vista {
     
     
-    public partial class Maestra_Anidada {
+    public partial class EquipoGamers {
         
         /// <summary>
-        /// Control ContentPlaceHolder1.
+        /// Control DataList1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.DataList DataList1;
         
         /// <summary>
-        /// Control AdRotator1.
+        /// Control SqlDataSource1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.AdRotator AdRotator1;
-        
-        /// <summary>
-        /// Control XmlDataSource1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource XmlDataSource1;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
     }
 }

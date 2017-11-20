@@ -4,32 +4,64 @@
 
 <html>
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Gamer Store</title>
-    <link href="CSS/estilos.css" rel="stylesheet" />  
+    <link href="CSS/estilos.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
         <div id="contenedor">
             <header>
-                <img src="Imagenes/logoPrincipal.png" />
+                <div>
+                    <img src="../Imagenes/logoPrincipal.png" />
+                </div>
+                <div id="Login">
+                    <a href="Registro.aspx">Registrarse</a>
+                    <a href="Login.aspx">Iniciar Sesión</a>
+                </div>
             </header>
-            <nav>
+            <nav id="menu">
                 <a href="Default.aspx">Inicio</a>|
-                <a href="Productos.aspx">Productos</a>|
-                <a href="Promociones.aspx">Promociones</a>|
-                <a href="Registrate.aspx">Registro</a>
+                <a href="Juegos.aspx">Juegos</a>|
+                <a href="EquipoGamers.aspx">Equipos Gamers</a>|
+                <a href="Servicios.aspx">Servicios</a>
             </nav>
-        
+
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-            <div  style="clear:both" class="clear"></div>
+            <div class="clear"></div>
             <footer>
                 <section>
-                    <div id="izquierda_footer">a</div>
-                    <div id="derecha_footer">b</div>
-                    <div id="centro_footer">c</div>
+                    <div id="izquierda_footer">
+                        <h1>NOSOTROS</h1>
+                        <nav>
+                            <ul>
+                                <li><a href="#">EMPRESA</a></li>
+                                <li><a href="#">COLABORADORES</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div id="derecha_footer">
+                        <h1>CONTACTENOS</h1>
+                        <nav>
+                            <ul>
+                                <li><a href="#">DIRECCION</a></li>
+                                <li><a href="#">TELEFONOS</a></li>
 
+                            </ul>
+                        </nav>
+                    </div>
+                    <div id="centro_footer">
+                        <h1>REDES SOCIALES</h1>
+                        <nav>
+                            <ul>
+                                <li><a href="www.facebook.com">FACEBOOK</a></li>
+                                <li><a href="www.toutube.com">YOUTUBE</a></li>
+                                <li><a href="www.twitter.com">TWITTERS</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
                 </section>
             </footer>
         </div>

@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace PMC1T_GAMER.Pag_Vista
 {
-    public partial class Promociones : System.Web.UI.Page
+    public partial class Servicios : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
